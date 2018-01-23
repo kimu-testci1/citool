@@ -5,16 +5,6 @@ class SampleTest extends \PHPUnit\Framework\TestCase
     public function testHelloworld()
     {
         $Sample = new Sample();
-        $this->assertEquals($Sample->helloWorld(), 'hello world!');
+        $this->assertEquals($Sample->helloWorld(), 'hello!');
     }
-
-    /**
-     * @test
-     */
-    public function aaa()
-    {
-        $Sample = new Sample();
-        $this->assertEquals($Sample->helloWorld(), 'aaaaa');
-    }
-    
 }
